@@ -13,7 +13,7 @@ import socketIO from 'socket.io'
 import http from 'http' */
 
 const app = express();
-const port = process.env.PORT || 4001;
+const port = process.env.PORT || 3000;
 //import socket from './socket/socket.js'
 app.use(router);
 app.use(cors());
